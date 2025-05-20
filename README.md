@@ -1,6 +1,6 @@
 # Desafio-7
-
-#questao1
+# exercicio 1
+```java
         int n;
         Scanner ler = new Scanner (System.in);
         System.out.println("Informe um valor: ");
@@ -14,7 +14,9 @@
             calculo = y*x;
             System.out.println(y+"x"+x+"="+calculo);
             y++;
-questao2
+```
+# exercicio2
+```java
         Scanner ler = new Scanner (System.in);
         System.out.println("Informe o 1º número: ");
         int numero1 = ler.nextInt();
@@ -31,7 +33,9 @@ questao2
                     resp = resp+ "O maior valor é: "+n2;
                 }
                 System.out.println(resp);
-questao3
+```
+# exercicio3
+```java
         Scanner ler = new Scanner(System.in);
         String nome1, nome2;
         System.out.println("Digite o 1º nome: ");
@@ -50,7 +54,9 @@ questao3
             resp = resp + "Os nomes NÃO são iguais!";
         }
         return resp;
-questao4
+```
+# exercicio4
+```java
         int numero1, numero2;
         Scanner ler = new Scanner (System.in);
       
@@ -70,7 +76,9 @@ questao4
                     
         }
         System.out.println(resp);
-questao5
+```
+# exercicio5
+```java
         String nome1, nome2;
         Scanner ler = new Scanner(System.in);
         nome1 = JOptionPane.showInputDialog("Digite o 1 nome");
@@ -92,7 +100,9 @@ questao5
 
     public static void ImprimirTexto(String texto) {
         JOptionPane.showMessageDialog(null, texto);
-questao6
+```
+# exercicio6
+```java
         Scanner ler = new Scanner(System.in);
         double celsius;
         System.out.println("Informe a tremperatura Celsius: ");
@@ -102,7 +112,9 @@ questao6
     }
     public static double conversor(double temp) {
         return ( temp * 1.8 + 32 );
-questao7
+```
+# exercicio7
+```java
         Scanner ler = new Scanner(System.in);
         double raio;
         System.out.println("Digite o raio do círculo:");
@@ -116,7 +128,9 @@ questao7
         double areaC = Math.PI * (Math.pow(r, 2));
         System.out.println("A área do círculo é:" + df.format(areaC));
         return areaC;
-questao8
+```
+# exercicio8
+```java
         Scanner ler = new Scanner(System.in);
         double nota1, nota2, nota3;
         System.out.println("Digite a primeira nota: ");
@@ -133,3 +147,4 @@ questao8
         double mediaP = (n1 * 3 + n2 * 3 + n3 * 4) / 10;
         System.out.println("Sua média ponderada é: " + mediaP);
         return mediaP;
+```
